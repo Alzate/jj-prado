@@ -2,10 +2,10 @@
 angular.module('starter.controllers')
 
 .controller('ProductsCtrl', function($scope) {
-  var bistec = new Product('bistec', 'assets/img/bistec.jpg', 'Lorem ipsum dolor');
-  var careta = new Product('careta', 'assets/img/careta.jpg', 'Lorem ipsum dolor');
-  var chorizo = new Product('chorizo', 'assets/img/chorizo.jpg', 'Lorem ipsum dolor');
-  $scope.products = [bistec, careta, chorizo];
+  var carnes = new Product('Carnes frescas', 'assets/img/bistec.jpg', 'De primera');
+  var embutidos = new Product('Elaborados y embutidos', 'assets/img/chorizo.jpg', 'Embutidos de la casa');
+  var fiambres = new Product('Fiambres', 'assets/img/queso.jpg', 'Quesos de cabra o vaca, curados');
+  $scope.products = [carnes, embutidos, fiambres];
 });
 
 var Product = function(title, image, description) {
