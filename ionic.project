@@ -1,6 +1,6 @@
 {
-  "name": "IonicBase",
-  "app_id": "3aaf105b",
+  "name": "JJ-Prado",
+  "app_id": "4ddf8476",
   "gulpStartupTasks": [
     "sass",
     "watch"
